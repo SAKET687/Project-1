@@ -1,0 +1,43 @@
+-- import: package/base-layout as layout
+-- import: package/header as navbar
+-- import: package/toast as toast
+-- import: package/lib as lib
+-- import: package/button as button
+-- import: package/social-buttons as social
+
+
+-- ftd.row:
+background.solid: #130c39
+width: fill-container
+height: fill-container
+
+-- ftd.row:
+;; background.solid: #407bd8
+background.solid: #130c35
+align-content: top-right
+;; spacing.fixed.px: 400
+padding.px: 10
+;; font-size.px: 22
+-- ftd.text: EZMED
+color: #eee
+;; style: bold, regular
+
+-- end: ftd.row
+
+-- ftd.row:
+background.solid: #130c35
+align-content: right
+spacing.fixed.px: 40
+
+-- ftd.text: Home
+color: #eee
+
+-- ftd.text: About
+color: #eee
+
+-- ftd.text: Contact
+color: #eee
+
+
+-- end: ftd.row
+-- end: ftd.row
